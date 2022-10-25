@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- non inserendo method in form sara sempre get (che va bene per dati semplici mentre post serve per quelli complessi). -->
+
+    <form method="get">
+
+        <!-- requiered serve per rendere obbligatorio un campo (e attiva le validazioni) -->
+
+        <input name="name" type="text" placeholder="Nome">
+        <hr>
+        <input name="password" type="password" placeholder="scrivi la tua password">
+        <input required name="email" type="email" placeholder="il tuo indirizzo email">
+        <input name="number" type="number" placeholder="Telefono">
+        <hr>
+
+        <input id="consenso" type="checkbox" name="consenso"> <label for="consenso">acconsento
+         al trattamento dei dati</label>
+         <hr>
+
+         <label for="m">maschio</label>
+         <input type="radio" name="gender" value="m">
+         <label for="f">femmina</label>
+         <input type="radio" name="gender" value="f">
+         <label for="x">altro</label>
+         <input type="radio" 
+         checked name="gender" value="x">
+
+         
+
+
+
+
+
+<!-- al backend nel value non interessa sapere cosa arriva al client finale è piu pratico inserire un dato che sarà stesso lui a darci tipo "1" per milano ecc  -->
+<hr>
+        <select name="city" id="">
+            <option value="">--</option>
+            <option value="milano">milano</option>
+            <option value="roma">roma</option>
+            <option selected value="napoliiiii">napoliiiii</option>
+        </select>
+        <hr>
+
+        <textarea name="messaggio" id="" cols="30" rows="10"></textarea>
+        
+        <button>invia</button>
+        <input type="submit" value="">
+
+     </form>
+
+     
+</body>
+</html>
