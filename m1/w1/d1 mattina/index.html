@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="descrizione della pagina"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- i tag p sono degli elementi inblock cioè occupano un determinato spazio nella pagino andando poi a capo automaticamente mentre gli inline continuano sulla stessa riga come fosse un testo unico -->
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, placeat maxime. Suscipit unde deserunt cupiditate nisi omnis quaerat inventore, incidunt, nostrum, impedit qui doloremque deleniti laborum iusto vel eveniet tempore.
+    </p>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi reprehenderit, vel necessitatibus laboriosam architecto nihil quaerat fugiat voluptatum suscipit obcaecati quidem, accusamus eum sit, quisquam cumque fuga doloremque atque? Mollitia.
+    </p>
+
+    <!-- headings -->
+
+    <!-- oltre a un ordine di grandezza hanno un valore semantico, es un h1 è il titolo della pagina e ci deve sempre essere, ma mai più di uno. h2 si può usare per le macro sezioni senza però abusarne, il resto vanno a scalare per ordine di importanza e se ne possono usare a volontà (html deve sempre è solo fare descrizione e struttura dei contenuti, per lo stile grafico si usa css e compagnia) -->
+
+    <h1>titolo</h1>
+    <h2>titolo</h2>
+    <h3>titolo</h3> 
+    <h4>titolo</h4>
+    <h5>titolo</h5>
+    <h6>titolo</h6>
+
+    <!-- gli elemnti lista -->
+
+    <ul>
+        <li>item</li>
+        <li>item</li>
+        <li>item
+            <ul>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ul>
+        </li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <ol>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+
+    <dl>
+        <dt>html</dt>
+        <dd>linguaggio di programmazione</dd>
+    </dl>
+    <!-- cercare di usare più tag possibile per descrivere al meglio la semantica della paggina es: adress, blockquote ecc (cerca sempre di conoscerne di nuove e di cercane) -->
+
+    <!-- il tag b e il tag strong visivamente sono uguali, ma il tag b comunica solo all utente finale mentre il tag strong viene visualizzato anche dal motore di ricerca come parole chiave. -->
+    <p>
+        Lorem ipsum <b> dolor </b> sit amet consectetur adipisicing <strong> Consectetur </strong> dolor consequuntur sunt atque sint praesentium <i> nihil </i> quas quis  <em> incidunt </em> vero ad error, suscipit dolores, saepe voluptatibus officia quia aut tempora?
+    </p>
+    <!-- il tag abrv va usato solo per le abbreviazioni es html -->
+        <abbr title="Hypertext Markup lenguage"> HTML </abbr>
+        <hr>
+        <!-- il tag br è un tag autoconclusivo e per il momento si può usare per andare a capo nei paragrafi, mentre il tag hr manda a capo è crea anche una separazionio ovvero una riga orrizonatale. NEl tag img la parte src è cio che crea il percorso dell imagine -->
+        <img src="https://i.ytimg.com/vi/5Vi-rH9SWds/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAAmtcxDmg0FGQmKVD2OTJHuAqzIg"  alt="delle uova boh"  width="200">
+     <br>   
+
+    <!-- l attributo alt viene utilizzato per la descrizione dell immagine, viene usata anche per le perosone ipovedneti e anche proprio per il motore di ricerca quindi molto importante da inserie sempre.
+    nell src di un immagine che è presente sul pc ricordarsi di creare una cartella img su visual code, inserirla all interno e nel percorso indicare la / sempre dopo il nome della cartella (img) -->
+    <img src="img/lobotka_napoli_13.jpg" alt="miglior centrocampista serie a" width="300"> 
+    <figcaption>grande loboooooo</figcaption>
+    <!-- approfondisci il tag a sul libro -->
+    <a href="https://it.wikipedia.org/wiki/Stanislav_Lobotka" target="_blank"> lobotka wikipedia </a>
+    <hr>
+    <a href="pagina2.html"> pagina 2 </a>
+</body>
+</html>
