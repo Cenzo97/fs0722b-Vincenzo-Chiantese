@@ -1,0 +1,106 @@
+
+img{
+
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    width: 150px;
+    height: auto;
+
+}
+
+
+
+body{
+    
+    font-family: 'Arvo' , serif , arial;
+    text-align: center;
+}
+
+#sottologo{
+    
+   background-color: rgba(137, 43, 226, 0.123);
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-top: 1px solid blueviolet;
+
+}
+
+
+#span1{
+
+
+    font-weight: bold;
+}
+
+#titolo{
+
+padding-left: 400px;
+padding-right: 400px;
+padding-top: 30px;
+
+}
+
+#caption{
+
+color: gray;
+
+}
+
+#main{
+    margin-left: 400px;
+    padding-right: 400px;
+   
+    text-align: left;
+    border-left: 2px solid red;
+
+}
+
+#feat{
+    margin-left: 0px;
+    color: red;
+
+}
+
+#ingredients{
+
+    text-align:left;
+    padding-top: 30px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+#final{
+
+
+    text-align:left;
+    padding-top: 10px;
+    padding-left: 400px;
+    padding-right: 400px;
+
+}
+
+
+#lista1{
+
+    font-weight: bold;
+
+}
+
+
+#piedi{
+
+    text-align:left;
+    padding-top: 10px;
+    padding-left: 400px;
+    padding-right: 400px;
+
+}
+
+#span2{
+    
+    font-weight: bold;
+}
+
+
+
